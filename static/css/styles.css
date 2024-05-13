@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;600&display=swap');
+
+/* Background */
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.bg {
+    background-color: #f4f7ef;
+    font-family: 'Asap', sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+
+/* Navbar */
+
+.nav-bg {
+    background-color: #3fdd17;
+}
+
+.nav-bg a {
+    color: #020704;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.nav-bg a:hover {
+    color: #45695b;
+}
+
+.nav-button {
+    color: #f4f4f4;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+.logged-in {
+    color: rgb(9, 26, 15);
+    margin: 8px 2px;
+}
+
+
+/* Fonts and Texts */
+
+.headliner-text {
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+
+/* Class Helpers */
+
+.text-link {
+    color: #083f49;
+    transition: all 0.31s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+}
+
+.text-link:hover {
+    color: #2bb132;
+    text-decoration: none;
+}
+
+
+/* Admin/Profile */
+
+.table {
+    background-color: #d2d2d2;
+}
+
+tr {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+/* Font Awesome Stlying */
+
+.fg-admin-entry {
+    font-size: 22px;
+}
+
+.fg-icon {
+    color: #010405;
+    padding: 2px;
+    transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+
+.fa-play:hover {
+    color: #2bb132
+}
+
+.fa-file-pen:hover {
+    color: #3128ad
+}
+
+.fa-dumpster-fire:hover {
+    color: #eb130c
+}
