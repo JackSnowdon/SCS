@@ -1,2 +1,2 @@
+release: ./release-tasks.sh
 web: gunicorn SCS.wsgi
-# release: ./manage.py migrate --no-input
